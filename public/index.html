@@ -3,8 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Biriyani,Cloud kitchen,Bhubaneswar,catering,food delivery">
-    <meta name="description" content="Serving the best Hyderabadi biriyani in Bhubaneswar">
+    <meta name="keywords" content="Tiffin Services in Bhubaneswar,Cloud kitchen,catering,Meal Services, Bhubaneswar">
+    <meta name="description" content="We provide Meal services in Bhubaneswar at affordable prices">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,12 +26,14 @@
    
     <ul class="flex  my-3 ">
 
-         <li  class="px-4"> <a href="./menu.html">Menu</a></li>
+         <li id="menu_id" class="px-4"> <a class="no-underline">Menu</a></li>
          
 
      </ul>
 
    </nav>   
+
+   
    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -40,14 +42,8 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active ">
-            <img src="./images/bir.jpg" class="d-block w-150" alt="...">
-            <div class="carousel-caption ">
-              <h1 class="text-3xl w-100 bg-black text-yellow-400 font-extrabold">Biriyani</h5>
-              <p>Like never before</p>
-            </div>
-          </div>
-          <div class="carousel-item">
+       
+          <div class="carousel-item active">
             <img src="./images/lollypop.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption  d-md-block">
               <h5 class="text-3xl w-100 bg-black text-yellow-400 font-extrabold">Satisfy Your Cravings</h5>
@@ -56,6 +52,13 @@
           </div>
           <div class="carousel-item">
             <img src="./images/reviews.jpeg" class="d-block max-h-60 w-100" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h1 class="text-3xl w-100 bg-black text-yellow-400 font-extrabold">Happy Customers</h2>
+              <p>Spreading Deliciousness</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/newtray.jpg" class="d-block max-h-60 w-100" alt="...">
             <div class="carousel-caption  d-md-block">
               <h1 class="text-3xl w-100 bg-black text-yellow-400 font-extrabold">Happy Customers</h2>
               <p>Spreading Deliciousness</p>
@@ -79,10 +82,11 @@
   
 
   </div>
+
   <div class="flex justify-center text-white ">
     <div class="flex my-8 space-x-10 ">
-      <img class="h-7 w-7 "  src="./images/Zomato-Logo-Vector.png" alt="">
-      <img class="h-7 w-7" src="./images/Swiggy-Logo-PNG.png" alt=""/>
+      <img id="zom" class="h-7 w-7 hover:cursor-pointer "  src="./images/Zomato-Logo-Vector.png" alt="">
+      <img id="swi" class="h-7 w-7 hover:cursor-pointer" src="./images/Swiggy-Logo-PNG.png" alt=""/>
       </div>
 
   </div>
@@ -103,7 +107,7 @@
    <div class="flex justify-center " >
      <p class="md:w-2/5 ">
       We are a Bhubaneswar based cloud Kitchen serving delicious food at a reasonable and budget friendly price.
-      We accept orders directly through phone and whatsapp.We are also available on food delivery apps such as Zomato and Swiggy.
+      We provide daily tiffin/meal services at your doorstep on a monthly subscription basis.  
      </p>
 
 
@@ -119,7 +123,7 @@
   </div>
   <div class="flex justify-center pt-2  " >
     <p class="md:w-2/5">
-      We accept home delivery orders. We also offer catering services for events and parties. 
+      We deliver at your address. We provide meals at office premises.We also offer catering services for events and parties. 
     </p>
  
      
@@ -133,7 +137,7 @@
 
 </section>
 
-<div class="flex justify-center  ">
+<div class="flex justify-center z-10 ">
  
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
   <div class="elfsight-app-852b2e01-d3f0-4fe1-b022-3384b8f0c871"></div>
@@ -166,8 +170,16 @@
 
 </div>
 </section>
-      
+<div id="sub_banner" style="cursor: pointer;" class="fixed left bottom-20 bg-yellow-400 z-20 px-3">
+  <h1 class="md:text-2xl" style=" cursor: pointer; font-family: Alumni Sans Inline One;" > Subscribe Now</h1>
+  <h1 class="ml-12">Click Here</h1>
+
+ </div>
+<div id="wpbtn" class=" fixed right-5 bottom-20 bg-green-400 rounded-full" >
+<img class="w-10 h-10  " src="./images/whatsapp-logo-png-2261.png">
+</div>
 
 </body>
+
 <script src="index.js"></script>
 </html>

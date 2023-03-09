@@ -1,0 +1,11 @@
+document.getElementById("insta")
+.onclick=()=>{
+    window.open("https://www.instagram.com/tray_trap_foods/")
+}
+document.getElementById("wp").onclick=()=>{
+    window.open("https://api.whatsapp.com/send?phone=7992940583")
+}
+document.getElementById("logoimg").onclick=()=>{
+    console.log("his");
+    window.location.href="home.html";
+}
